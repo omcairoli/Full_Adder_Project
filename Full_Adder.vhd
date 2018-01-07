@@ -1,11 +1,13 @@
-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 -- File:	Full_Adder.vhd
 -- Engineer:	Oscar Cairoli
 -- Description: Full Adder using a behavioral architecture
 -- OS:		Linux (Ubuntu) Terminal Command Lines with Digilent Adept and Basys2 FPGA:
---		$ djtgcfg enum
---		$ djtgcfg prog -d Basys2 -i 0 -f Full_Adder.vhd
-----------------------------------------------------------------------------------------------------
+--		$ djtgcfg enum						// The "enum" command enumerates the devices (-d)
+--		$ djtgcfg init -d Basys2                        	// The "init" command initializes the device for use
+--		$ djtgcfg prog -d Basys2 -i 0 -f Full_Adder.vhd 	// The "prog" command programs an interface (-i) on 
+-- 									// a device (-d) with the .bit file (-f)
+----------------------------------------------------------------------------------------------------------------------------
 
 -- Libraries
 library IEEE;
