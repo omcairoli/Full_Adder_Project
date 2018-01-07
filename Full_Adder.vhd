@@ -1,7 +1,10 @@
 ----------------------------------------------------------------------------------------------------
--- File:		Full_Adder.vhd
+-- File:	Full_Adder.vhd
 -- Engineer:	Oscar Cairoli
 -- Description: This is an implementation of a single Full Adder using a behavioral architecture
+-- OS:		Linux (Ubuntu) Terminal Command Lines with Digilent Adept and Basys2 FPGA:
+--		$ djtgcfg enum
+--		$ djtgcfg prog -d Basys2 -i 0 -f Full_Adder.vhd
 ----------------------------------------------------------------------------------------------------
 
 -- Libraries
