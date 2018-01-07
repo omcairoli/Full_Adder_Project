@@ -16,11 +16,11 @@ use IEEE.std_logic_1164.all;
 
 entity Full_Adder is
 	port (
-		S		:	out std_logic;
-		C_Out	:	out std_logic;
-		x 		:	in	std_logic;
-		y		:	in	std_logic;
-		C_In	:	in 	std_logic);
+		S	: out std_logic;
+		C_Out	: out std_logic;
+		x 	: in	std_logic;
+		y	: in	std_logic;
+		C_In	: in 	std_logic);
 end Full_Adder;
 
 -- Architecture Body
@@ -41,7 +41,7 @@ begin
 -- Combine inputs and outputs into std_logic_vector
 inputs 	<= C_In & x & y;
 C_Out	<= outputs(1);
-S		<= outputs(0);
+S	<= outputs(0);
 
 -- Process that determines output based on the inputs
 -- Note the similarity between this and the Full Adder truth table
